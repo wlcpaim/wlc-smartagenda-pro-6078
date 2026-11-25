@@ -103,6 +103,6 @@ export const initialTelegramConfig: TelegramConfig = {
 };
 // --- Reconciliação Automática WLC 1.9.9 ---
 
-export const getInitialServices: any = () => null;
+export const getInitialServices = () => initialServices;
 
-export const getInitialBarbers: any = () => null;
+export const getInitialBarbers = () => initialBarbers;
